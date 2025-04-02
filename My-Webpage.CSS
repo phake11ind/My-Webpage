@@ -1,0 +1,87 @@
+h1 {
+    font: 50px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+    text-shadow: 3px 2px 3px #5e5b5b;
+    color: rgba(13, 7, 41, 0.712);
+    outline: 2px dashed #98abb9;
+    outline-offset: -5px;
+     
+    background-color: #0c4369;
+    height: 100px;
+    width: auto;
+    margin: auto;
+
+    padding: 20px 0px 0px 15px;
+     
+    /*shadow*/
+    -webkit-box-shadow: 2px 2px 2px #000;
+    -moz-box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 20%;
+}
+
+ul {
+    text-align: left;
+    list-style-type: disc;
+}
+
+h3 {
+    text-align: left;
+}
+
+ol:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+}
+
+/*increase padding to make it easier to click on. Doesn't have to be exaclty on top to click link */
+.nav-link {
+    text-decoration: none;
+    margin: 25px;
+    padding: 25px;
+    color:rgb(23, 16, 110);
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(245, 230, 214);
+    background-size: cover; /* Scale to cover the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+}
+
+div {
+    margin-left: 50px;
+}
+
+#learning {
+    display: inline-block;
+    background-color: aqua;
+    margin: 50px;
+    padding:25px;
+}
+
+#movies {
+    display: inline-block;
+    background-color: rgb(15, 148, 104);
+    padding: 25px;
+    margin-left: 100px;
+}
